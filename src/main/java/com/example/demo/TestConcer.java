@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestConcer {
     @GetMapping("/index")
     public String index(){
-        return "hello springboot！hello docker ！!！！中哇啊，终于成功了";
+        return "hello springboot！hello docker ，终于成功了";
     }
 }
